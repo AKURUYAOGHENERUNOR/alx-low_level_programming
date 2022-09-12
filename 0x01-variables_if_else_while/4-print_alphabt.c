@@ -14,11 +14,11 @@ int main(void)
 		q = 'q';
 		
 		for (low = 'a'; low <= 'z'; low++)
-			{
+		{
 				   if (low != e && low != q)
 					 putchar(low);                     
-			}
-			printf("\n");
+		}
+		printf("\n");
 
-			return (0);
+		return (0);
 }
