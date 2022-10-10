@@ -15,7 +15,7 @@ return (n >= '0' &&  n <= '9');
  * @s: String
  * Return: Return the num
  */
-nt _atoi(char *s)
+int _atoi(char *s)
 {
 unsigned int number, i;
 int sign;
